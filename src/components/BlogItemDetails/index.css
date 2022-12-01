@@ -1,0 +1,47 @@
+/* Write your CSS code here */
+
+.avatar-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.author-name {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 15px;
+  color: #2f4f4f;
+  margin-left: 10px;
+}
+
+.name-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.description {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 15px;
+  color: #8e8e8e;
+  margin-left: 10px;
+}
+
+.title-content {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 25px;
+  color: #000000;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.container {
+  padding: 30px;
+}

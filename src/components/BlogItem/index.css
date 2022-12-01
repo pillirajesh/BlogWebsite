@@ -1,0 +1,57 @@
+/* Write your CSS code here */
+
+.image-url {
+  width: 300px;
+  height: 170px;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+
+.avatar-url {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 50px;
+}
+
+.blog-link {
+  text-decoration: none;
+}
+
+.blog-list-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.author-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.details.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.topic {
+  font-family: 'roboto';
+  font-weight: 500;
+  color: #8e8e8e;
+}
+
+.author {
+  font-family: 'roboto';
+  font-weight: 500;
+  color: #d3d3d3;
+  margin-left: 10px;
+}
